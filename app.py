@@ -296,6 +296,52 @@ def delete_user(username):
     flash(f"ลบผู้ใช้ {username} เรียบร้อยแล้ว")
     save_data()
     return redirect(url_for('admin_page'))
+import base64
+import requests
+
+def upload_to_github():
+    GITHUB_USER = 'Bootzy70'
+    REPO_NAME = 'Bootzy_70'
+    FILE_PATH = 'data.json'
+    BRANCH = 'main'  # หรือ master
+    TOKEN = os.environ.get('GITHUB_TOKEN')
+
+    try:
+        with open(FILE_PATH, 'rb') as f:
+            content = f.read()
+
+        content_b64 = base64.b64encode(content).decode('utf-8')
+
+        url = f"https://api.github.com/repos/{GITHUB_USER}/{REPO_NAME}/contents/{FILE_PATH}"
+        headers = {
+            'Authorization': f'token {TOKEN}',
+            'Accept': 'application/vnd.github.v3+json'
+        }
+
+        # ดึง SHA ล่าสุด (ถ้ามี)
+        sha = None
+        res = requests.get(url, headers=headers)
+        if res.status_code == 200:
+            sha = res.json().get('sha')
+
+        # เตรียมข้อมูลอัปโหลด
+        data = {
+            'message': '🔄 อัปเดตข้อมูลจากเว็บ Flask',
+            'content': content_b64,
+            'branch': BRANCH
+        }
+        if sha:
+            data['sha'] = sha
+
+        res = requests.put(url, headers=headers, json=data)
+        if res.status_code in [200, 201]:
+            print("✅ Sync data.json ขึ้น GitHub สำเร็จ")
+        else:
+            print("❌ อัปโหลดไม่สำเร็จ:", res.status_code, res.text)
+
+    except Exception as e:
+        print("⚠️ เกิดข้อผิดพลาดในการอัปโหลดไป GitHub:", str(e))
+
 
 # ---------------------- Main ----------------------
 load_data()
