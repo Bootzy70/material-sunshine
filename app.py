@@ -27,6 +27,9 @@ def save_data():
             'stock_logs': stock_logs
         }, f, ensure_ascii=False, indent=2)
 
+    # หลังบันทึกแล้ว -> sync ไป GitHub
+    upload_to_github()
+
 def load_data():
     if os.path.exists(DATA_FILE):
         with open(DATA_FILE, 'r', encoding='utf-8') as f:
