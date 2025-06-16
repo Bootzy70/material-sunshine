@@ -327,6 +327,42 @@
       "quantity": 9,
       "unit": "อัน",
       "code": "MAT008"
+    },
+    {
+      "name": "ก็อกผสมยืนอาบ (ส่วนกลาง)",
+      "quantity": 2,
+      "unit": "อัน",
+      "code": "MAT009"
+    },
+    {
+      "name": "ราวแขวนผ้า IKEA ",
+      "quantity": 5,
+      "unit": "อัน",
+      "code": "MAT010"
+    },
+    {
+      "name": "ราวแขวนผ้า WS (ตึก2)",
+      "quantity": 50,
+      "unit": "อัน",
+      "code": "MAT011"
+    },
+    {
+      "name": "BallValve 3ทาง",
+      "quantity": 0,
+      "unit": "อัน",
+      "code": "MAT012"
+    },
+    {
+      "name": "BallValve2ทาง",
+      "quantity": 0,
+      "unit": "อัน",
+      "code": "MAT013"
+    },
+    {
+      "name": "ตะแกรงกันกลิ่นแบบ 5นิ้ว ติดกระเบื้อง",
+      "quantity": 4,
+      "unit": "อัน",
+      "code": "MAT014"
     }
   ],
   "stock_logs": [
