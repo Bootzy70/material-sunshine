@@ -1,8 +1,11 @@
 from flask import Flask, render_template, request, redirect, session, url_for, flash
 from functools import wraps
 from datetime import datetime
+from dotenv import load_dotenv
 import json
 import os
+
+load_dotenv()  # โหลด .env -> os.environ
 
 app = Flask(__name__)
 app.secret_key = 'your_secret_key_here'
