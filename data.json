@@ -12,7 +12,7 @@
   "materials": [
     {
       "name": "กระดาษทราย เบอร์3",
-      "quantity": 60,
+      "quantity": 156,
       "unit": "แผ่น",
       "code": "GEN-001"
     },
@@ -24,7 +24,7 @@
     },
     {
       "name": "อะคลีลิกแด็ป TOA303",
-      "quantity": 5,
+      "quantity": 10,
       "unit": "อัน",
       "code": "PNT-001"
     },
@@ -48,7 +48,7 @@
     },
     {
       "name": "เทปกาวหย่น",
-      "quantity": 60,
+      "quantity": 63,
       "unit": "ม้วน",
       "code": "GEN-005"
     },
@@ -173,8 +173,8 @@
       "code": "PNT-006"
     },
     {
-      "name": "TOA 4SS Primer สีรองพื้นทาฝ้า",
-      "quantity": 0,
+      "name": "TOA 4SS PrimerA1111 สีรองพื้นทาฝ้า",
+      "quantity": 4,
       "unit": "ถัง",
       "code": "PNT-007"
     },
@@ -264,7 +264,7 @@
     },
     {
       "name": "สี TOA GLIPTON สีน้ำมันเคลือบด้าน F888 สีทาราวเหล็ก",
-      "quantity": 0,
+      "quantity": 5,
       "unit": "ถัง",
       "code": "PNT-009"
     },
@@ -273,6 +273,60 @@
       "quantity": 0,
       "unit": "ถัง",
       "code": "PNT-010"
+    },
+    {
+      "name": "TOA- Supershield prime A000 3.785L (ถังเล็ก)",
+      "quantity": 3,
+      "unit": "ถัง",
+      "code": "PNT-011"
+    },
+    {
+      "name": "TOA PU WATERPROOF",
+      "quantity": 8,
+      "unit": "ถัง",
+      "code": "DWP-001"
+    },
+    {
+      "name": "กระดาษทรายเบอร์ 0",
+      "quantity": 60,
+      "unit": "แผ่น",
+      "code": "MAT001"
+    },
+    {
+      "name": "ตะแกรงกันกลิ่น TIKTOK 1.5นิ้ว สีน้ำเงิน",
+      "quantity": 200,
+      "unit": "ชิ้น",
+      "code": "MAT002"
+    },
+    {
+      "name": "LAGAN ก็อกซิงค์ล้างจาน (ตึก2)",
+      "quantity": 70,
+      "unit": "อัน",
+      "code": "MAT003"
+    },
+    {
+      "name": "Door stopper แบบแม่เหล็กติดผนัง",
+      "quantity": 10,
+      "unit": "อัน",
+      "code": "MAT004"
+    },
+    {
+      "name": "Door Stopper กันชนติดพื้นแบบครึ่งกลม",
+      "quantity": 12,
+      "unit": "อัน",
+      "code": "MAT005"
+    },
+    {
+      "name": "ก้านshower ห้องน้ำ (ตึก2)",
+      "quantity": 4,
+      "unit": "อัน",
+      "code": "MAT007"
+    },
+    {
+      "name": "หัวฝักบัว (ตึก2)",
+      "quantity": 9,
+      "unit": "อัน",
+      "code": "MAT008"
     }
   ],
   "stock_logs": [
