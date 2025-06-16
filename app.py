@@ -304,7 +304,7 @@ import requests
 
 def upload_to_github():
     GITHUB_USER = 'Bootzy70'
-    REPO_NAME = 'Bootzy_70'
+    REPO_NAME = 'material-sunshine'
     FILE_PATH = 'data.json'
     BRANCH = 'main'  # หรือ master
     TOKEN = os.environ.get('GITHUB_TOKEN')
