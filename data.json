@@ -1,0 +1,296 @@
+{
+  "users": {
+    "admin_1234": {
+      "password": "admin_1234",
+      "is_admin": true
+    },
+    "member1": {
+      "password": "member1234",
+      "is_admin": false
+    }
+  },
+  "materials": [
+    {
+      "name": "กระดาษทราย เบอร์3",
+      "quantity": 60,
+      "unit": "แผ่น",
+      "code": "GEN-001"
+    },
+    {
+      "name": "กระดาษทราบเบอร์ 5",
+      "quantity": 60,
+      "unit": "แผ่น",
+      "code": "GEN-002"
+    },
+    {
+      "name": "อะคลีลิกแด็ป TOA303",
+      "quantity": 5,
+      "unit": "อัน",
+      "code": "PNT-001"
+    },
+    {
+      "name": "กาวร้อน",
+      "quantity": 24,
+      "unit": "อัน",
+      "code": "GEN-003"
+    },
+    {
+      "name": "ผ้าฟาง บลูชี้ต ยาว40หลา",
+      "quantity": 3,
+      "unit": "ม้วน",
+      "code": "GEN-004"
+    },
+    {
+      "name": "SIKA LATEX น้ำยาประสานคอนกรีต",
+      "quantity": 8,
+      "unit": "อัน",
+      "code": "MAT006"
+    },
+    {
+      "name": "เทปกาวหย่น",
+      "quantity": 60,
+      "unit": "ม้วน",
+      "code": "GEN-005"
+    },
+    {
+      "name": "กาวตะปู ",
+      "quantity": 40,
+      "unit": "อัน",
+      "code": "GEN-006"
+    },
+    {
+      "name": "กระเบื้อง REVERSO GRIGIO MATT 60x60 *A (พื้นบ้าน)",
+      "quantity": 1,
+      "unit": "กล่อง",
+      "code": "TL-001"
+    },
+    {
+      "name": "กระเบื้อง UZI GREY 60x60 CM GRADE A. (ระเบียงหน้าบ้าน)",
+      "quantity": 1,
+      "unit": "กล่อง",
+      "code": "TL-002"
+    },
+    {
+      "name": "กระเบื้อง LABANTE LIGHT GREY 60x60 CM GRADE A. (ผนังห้องน้ำ)",
+      "quantity": 1,
+      "unit": "กล่อง",
+      "code": "TL-003"
+    },
+    {
+      "name": "กระเบื้อง Kera model, Keradal Antique, sky blue, 4×4 inches (สระว่ายน้ำ)",
+      "quantity": 1,
+      "unit": "กล่อง",
+      "code": "TL-004"
+    },
+    {
+      "name": "Schneider SET ตู้คอนซูมเมอร์ยูนิต 18 ช่อง",
+      "quantity": 1,
+      "unit": "อัน",
+      "code": "ELT-001"
+    },
+    {
+      "name": "ไม้เทียมพื้นระเบียงบ้าน",
+      "quantity": 1,
+      "unit": "ท่อน",
+      "code": "DW-001"
+    },
+    {
+      "name": "ไม้เทียมตกแต่งเหล็กระแนง ",
+      "quantity": 1,
+      "unit": "ท่อน",
+      "code": "DW-002"
+    },
+    {
+      "name": "ไม้เทียมตกแต่งฝ้าระแนงในห้องโถง",
+      "quantity": 1,
+      "unit": "ท่อน",
+      "code": "DW-003"
+    },
+    {
+      "name": "ประตูไม้เนื้อแข็ง (ในบ้าน)",
+      "quantity": 1,
+      "unit": "บาน",
+      "code": "DR-001"
+    },
+    {
+      "name": "ประตู UPVC (ห้องซักรีด)",
+      "quantity": 1,
+      "unit": "บาน",
+      "code": "DR-002"
+    },
+    {
+      "name": "บานประตูห้องเก็บของ, ห้องปั๊ม",
+      "quantity": 1,
+      "unit": "บาน",
+      "code": "DR-003"
+    },
+    {
+      "name": "ประตูไม้โบราณ",
+      "quantity": 1,
+      "unit": "บาน",
+      "code": "DR-004"
+    },
+    {
+      "name": "วงกบประตูสำหรับบานประตูในบ้าน",
+      "quantity": 1,
+      "unit": "วง",
+      "code": "DR-005"
+    },
+    {
+      "name": "วงกบประตูแบบมีซับ (ในบ้าน)",
+      "quantity": 1,
+      "unit": "บาน",
+      "code": "DR-006"
+    },
+    {
+      "name": "TOA SUPERSHIELD MATT 8444  ( สีทาภายนอก )",
+      "quantity": 0,
+      "unit": "ถัง",
+      "code": "PNT-002"
+    },
+    {
+      "name": "TOA SUPERSHIELD MATT 8295  (สีทาสีพ่นภายนอก)",
+      "quantity": 0,
+      "unit": "ถัง",
+      "code": "PNT-003"
+    },
+    {
+      "name": "TOA DURACLEAN MATT 8299 (สีทาภายใน)",
+      "quantity": 4,
+      "unit": "ถัง",
+      "code": "PNT-004"
+    },
+    {
+      "name": "TOA SHIELD-1NANO สีรหัส 4SS ADVANCE A7000",
+      "quantity": 8,
+      "unit": "ถัง",
+      "code": "PNT-005"
+    },
+    {
+      "name": "TOA QUICK PRIMER สีทารองพื้นปูนเก่าใหม่กันด่าง",
+      "quantity": 3,
+      "unit": "ถัง",
+      "code": "PNT-006"
+    },
+    {
+      "name": "TOA 4SS Primer สีรองพื้นทาฝ้า",
+      "quantity": 0,
+      "unit": "ถัง",
+      "code": "PNT-007"
+    },
+    {
+      "name": "สี TOA GLIPTON สีน้ำมันเคลือบเงา N6063 สีทาวงกบประตู",
+      "quantity": 0,
+      "unit": "ถัง",
+      "code": "PNT-008"
+    },
+    {
+      "name": "ยาแนวเวเบอร์เอชอาร์ สระน้ำ 18.5 KG. สีเทาไข่มุก",
+      "quantity": 0,
+      "unit": "ถัง",
+      "code": "TL-005"
+    },
+    {
+      "name": "ตะแกรงกันกลิ่น DEXZON 2นิ้ว (ใส่ด้านล้างตะแกรงสแตนเลส80cm)",
+      "quantity": 0,
+      "unit": "อัน",
+      "code": "SAN-007"
+    },
+    {
+      "name": "ตะแกรงครอบ Stainless 80 cm (ตะแกรงในห้องน้ำใหญ่)",
+      "quantity": 0,
+      "unit": "อัน",
+      "code": "SAN-008"
+    },
+    {
+      "name": "ตะแกรง Floor drain กันกลิ่น พร้อมฝาครอบ VRH (ตะแกรงน้ำทิ้งในห้องน้ำ)",
+      "quantity": 0,
+      "unit": "อัน",
+      "code": "SAN-008"
+    },
+    {
+      "name": "ก๊อกน้ำอ่างล้างหน้า ยี่ห้อ (ใช้ในห้องน้ำ)",
+      "quantity": 0,
+      "unit": "อัน",
+      "code": "SAN-001"
+    },
+    {
+      "name": "สะดืออ่างแบบก้านยก ยี่ห้อ (ใช้ในห้องน้ำ)",
+      "quantity": 0,
+      "unit": "อัน",
+      "code": "SAN-002"
+    },
+    {
+      "name": "อ่างล้างหน้า ยี่ห้อ ",
+      "quantity": 0,
+      "unit": "ใบ",
+      "code": "SAN-003"
+    },
+    {
+      "name": "Shower ฝักบัวอาบน้ำ ยี่ห้อ ",
+      "quantity": 0,
+      "unit": "ถัง",
+      "code": "SAN-004"
+    },
+    {
+      "name": "ก็อกผสม ยี่ห้อ (ใช้ในห้องน้ำ)",
+      "quantity": 0,
+      "unit": "อัน",
+      "code": "SAN-005"
+    },
+    {
+      "name": "ชักโครก ยี่ห้อ",
+      "quantity": 0,
+      "unit": "ตัว",
+      "code": "SAN-006"
+    },
+    {
+      "name": "สายชำระสำหรับชักโครก ยี่ห้อ",
+      "quantity": 0,
+      "unit": "ตัว",
+      "code": "SAN-007"
+    },
+    {
+      "name": "ที่แขวนกระดาษชำระ ยี่ห้อ ",
+      "quantity": 0,
+      "unit": "อัน",
+      "code": "SAN-008"
+    },
+    {
+      "name": "ราวแขวนผ้า ยี่ห้อ ",
+      "quantity": 0,
+      "unit": "อัน",
+      "code": "SAN-009"
+    },
+    {
+      "name": "สี TOA GLIPTON สีน้ำมันเคลือบด้าน F888 สีทาราวเหล็ก",
+      "quantity": 0,
+      "unit": "ถัง",
+      "code": "PNT-009"
+    },
+    {
+      "name": "ทินเนอร์ TOA เบอร์ 21",
+      "quantity": 0,
+      "unit": "ถัง",
+      "code": "PNT-010"
+    }
+  ],
+  "stock_logs": [
+    {
+      "type": "out",
+      "code": "MAT003",
+      "name": "อะคลีลิกแด็ป TOA303",
+      "quantity": 5,
+      "requester": "จี",
+      "project": "ใช้แปลง15",
+      "date": "2025-06-14 14:12"
+    },
+    {
+      "type": "in",
+      "code": "MAT004",
+      "name": "กาวร้อน",
+      "quantity": 14,
+      "date": "2025-06-14 20:04"
+    }
+  ]
+}
